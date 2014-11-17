@@ -33,9 +33,16 @@
   overflow: hidden;
 }
 
+.nav-right {
+  width: 300px;
+  padding-left: 25px;
+  float: right;
+}
+
 .content {
   display: table-cell;
   width: 100%;
+  margin-right: 300px;
   text-align: justify;
   padding-left: 40px;
   padding-right: 40px;
