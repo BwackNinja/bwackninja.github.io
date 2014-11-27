@@ -36,8 +36,8 @@
 .right-nav {
   width: 300px;
   padding-left: 25px;
-  padding-top: 25px;
-  float: right;
+  /*padding-top: 25px;*/
+  /*float: right;*/
 }
 
 .content {
@@ -47,7 +47,7 @@
   text-align: justify;
   padding-left: 40px;
   padding-right: 40px;
-  padding-top: 20px;
+  /*padding-top: 20px;*/
 }
 
 .bcolumn {
