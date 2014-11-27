@@ -76,24 +76,41 @@
 }
 
 body {
-  background-color: #7BF;
+  /*background-color: #7BF;*/
   background-color: #BDF;
   font-family: sans-serif;
 }
 
-a {
+.nav a {
   color: #222;
   text-decoration: none;
 }
 
-a:hover {
+.nav a:hover {
   color: #FFF;
 }
 
-a:visited {
+.nav a:visited {
   color: #444;
 }
 
-a:visited:hover {
+.nav a:visited:hover {
   color: #FFF;
+}
+
+.right-nav a {
+  color: #222;
+  text-decoration: none;
+}
+
+.right-nav a:hover {
+  color: #7BF;
+}
+
+.right-nav a:visited {
+  color: #444;
+}
+
+.right-nav a:visited:hover {
+  color: #7BF;
 }
