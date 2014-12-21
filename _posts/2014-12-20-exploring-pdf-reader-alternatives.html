@@ -1,0 +1,9 @@
+---
+layout: page
+title: Exploring PDF Reader Alternatives
+subheading: An study of the current options for PDF viewing and a request for help
+---
+
+PDF viewer applications are not that interesting by themselves. Some new projects, like PDF.js, solve some old problems in a novel way and show what is now possible that we didn't previously expect. On the desktop, however, there aren't that many choices for PDF readers. On the QT front, you've got Okular and qPDFView, and on the GTK+ side you've got Evince (Atril for MATE) as the clear most feature complete solution. All of these use poppler as the backend by default, though the QT solutions also have projects that allow for a muPDF backend as well. Given that muPDF works very well and is faster and more accurate at rendering than poppler as far as I've been able to see, it's surprising that almost no one makes a document viewing application built around it. Sumatra PDF is the most complete one, it's well liked, but it's Windows only. A port doesn't even make sense for that.<br/><br/>
+
+What I've done is started a muPDF backend for Evince and it sorta works so far. It renders at the wrong resolution, but the pages show up. I've based it on https://mupdf-gtk.googlecode.com/svn/trunk/apps/gtk_main.c (which was a half-done GTK2 UI for muPDF) and pdfapp.c in the muPDF project. It's certainly broken, and I only spent a few hours on it, but it shows that it's possible if I only knew what I was doing.  On that note, I'd like to see if there's anyone out there willing to take on the challenge. Email me if you want to try your hand at it. If there's any interest, I'll upload code and hope you can get somewhere with it. Don't satisfy yourself with the status quo! Alternatives are there to be explored, so take the time to explore!
